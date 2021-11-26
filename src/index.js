@@ -5,6 +5,24 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { PetsOrderContextProvider } from './context/petsOrderContext';
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCZBqzCMfFR7B96YnGTGYowg1mU3rE3dhU",
+  authDomain: "pets-tutorial-itec.firebaseapp.com",
+  projectId: "pets-tutorial-itec",
+  storageBucket: "pets-tutorial-itec.appspot.com",
+  messagingSenderId: "801992362663",
+  appId: "1:801992362663:web:838ae2321d84252c0a2982"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 ReactDOM.render(
   <PetsOrderContextProvider>
     <App />
