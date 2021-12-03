@@ -12,12 +12,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCZBqzCMfFR7B96YnGTGYowg1mU3rE3dhU",
-  authDomain: "pets-tutorial-itec.firebaseapp.com",
-  projectId: "pets-tutorial-itec",
-  storageBucket: "pets-tutorial-itec.appspot.com",
-  messagingSenderId: "801992362663",
-  appId: "1:801992362663:web:838ae2321d84252c0a2982"
+  apiKey: "AIzaSyAsaNO-JLW_LrWxSMPKrpIrFj8FLQ4e7As",
+  authDomain: "pets-itec.firebaseapp.com",
+  projectId: "pets-itec",
+  storageBucket: "pets-itec.appspot.com",
+  messagingSenderId: "1069066078462",
+  appId: "1:1069066078462:web:220fa7c1ddffa8e03d3daf"
 };
 
 // Initialize Firebase
